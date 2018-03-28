@@ -1,0 +1,20 @@
+Algoritmo "Ler_sexo"
+// Disciplina  : [Algoritmos Computacionais]
+// Professor   : Edjander Mota
+// Descrição   : Leitura de sexo feminino ou masculino
+// Data atual  : 19/03/2018
+letra: caractere
+Inicio
+escreva("Informe uma letra: ")
+leia(letra)
+escreval("A letra digitada foi: ",letra,".")
+se (letra="F") ou (letra="f")entao
+escreval("Sexo Feminino")
+senao
+se (letra="M") ou (letra="m")entao
+escreval("Sexo Masculino")
+senao
+escreval("Sexo inválido!")
+fimse
+fimse
+Fimalgoritmo
