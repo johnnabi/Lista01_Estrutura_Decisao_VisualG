@@ -1,0 +1,53 @@
+Algoritmo "Numeros"
+// Disciplina  :  [Algoritmos computacionais] 
+// Professor   : Edjander Mota 
+// Descrição   : Inserir três números e colocar em order descrescente
+// Autor(a)    : John Wiliam
+// Data atual  : 19/03/2018
+Var
+n1,n2,n3:inteiro
+
+Inicio
+
+escreval("Informe o primeiro número: ")
+leia(n1)
+escreval("Informe o segundo número: ")
+leia(n2)
+escreval("Informe o terceiro número: ")
+leia(n3)
+
+
+se (n1<n2)e(n2<n3)entao
+escreva("A ordem dos número é: ",n3,n2,n1)//---OK
+senao
+
+se (n1>n2)e(n2>n3)entao
+escreva("A ordem dos números é: ",n1,n2,n3)//---OK
+senao
+
+se(n1>n2)e(n2<n3)entao
+escreva("A ordem dos números é: ",n3,n1,n2)//---OK
+senao
+
+se(n2>n3)e(n3>n1)entao
+escreva("A ordem dos números é: ",n2,n3,n1)//--OK
+senao
+
+se(n2>n1)e(n1>n3)entao
+escreva("A ordem dos números é: ",n2,n1,n3)//--OK
+senao
+
+senao
+
+escreva("Inválido")
+
+
+fimse
+fimse
+fimse
+fimse
+fimse
+
+
+
+fimalgoritmo# visualg
