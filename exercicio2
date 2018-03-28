@@ -1,0 +1,26 @@
+Algoritmo "Aluno_Turno"
+// Disciplina  : [Algoritmos Computacionais]
+// Professor   : Edjander Mota
+// Descrição   : Verificar o turno que estuda
+// Autor(a)    : John Wiliam
+// Data atual  : 19/03/2018
+Var
+turno: caractere
+Inicio
+escreval("Por favor, insira a letra correspondente ao seu Turno...")
+escreval("M- Matutino | V- Vespertino | N- Noturno")
+leia(turno)
+
+escolha(turno)
+
+caso "M","m"
+escreval("Bom dia!")
+caso "V","v"
+escreval("Boa tarde!")
+caso "N","n"
+escreval("Boa noite")
+outrocaso
+escreval("Valor inválido!! Insira uma letra correspondente!")
+
+fimescolha
+Fimalgoritmo
