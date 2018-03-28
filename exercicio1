@@ -1,0 +1,34 @@
+Algoritmo "Ler idade e tirar a média"
+// Disciplina  : [Algoritmos Computacionais]
+// Professor   : Edjander Mota
+// Descrição   : Leitura de médias! (função)
+// Autor(a)    : John Wiliam
+// Data atual  : 19/03/2018
+id1,id2,id3: inteiro
+media:real
+
+
+
+Inicio
+escreva("Insira a idade do Aluno 1: ")
+leia(id1)
+escreva("Insira a idade do Aluno 2: ")
+leia(id2)
+escreva("Insira a idade do Aluno 3: ")
+leia(id3)
+
+media<- (id1+id2+id3)/3
+
+se(media<25)entao
+
+escreval("A média de idade é de:",media," anos.  =Turma JOVEM.")
+senao
+
+se(media>=25) e (media<=40)entao
+escreval("Sua idade é de:",media," anos. Se diriga para Turma Jovem.")
+
+senao
+escreval("Turma Idosa",media)
+fimse
+fimse
+Fimalgoritmo
